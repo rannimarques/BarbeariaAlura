@@ -204,7 +204,7 @@ td, th {
 
 .mapa {
     padding: 3em;
-    background: linear-gradient(#fefefe, #888);
+    background: linear-gradient(#fefefe, #888); /* aplicando efeito degradê */ 
 }
 
 .mapa p {
@@ -245,7 +245,7 @@ td, th {
     width: 60%; 
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 30px #000; /* box-shadow: X Y blur intensidade (ou tamanho) da borda; Esses são os 4 elementos que compõem a propriedade */ 
+    box-shadow: 10px 10px 30px #000; /* box-shadow: X Y blur(raio de desfoque) cor */ 
 }
 
 .imagem-beneficios:hover {
